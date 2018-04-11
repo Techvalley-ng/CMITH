@@ -1,0 +1,75 @@
+body{
+  animation: myanimation 10s infinite;
+}
+.latop {
+  margin-top: 10%;
+}
+.login-padding{
+
+}
+.login-username {
+  color: #ffffff;
+  height: 3em;
+  color: #000000;
+  width: 95%;
+  margin-left: .5em;
+  background: url(/image/user1.png) no-repeat left #fff;
+  padding-left: 3em;
+  border-left: none;
+  border-right: none;
+  font-family:sans-serif;
+  font-weight: 900;
+}
+.login-password{
+  color: #d9d9d9;
+  height: 3em;
+  color: #000000;
+  width: 95%;
+  margin-left: .5em;
+  background: url(/image/40.png) no-repeat left #fff;
+  padding-left: 3em;
+  border-left: none;
+  border-right: none;
+  font-family:sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+
+}
+.sumite-icon {
+  cursor: pointer;
+  border: none;
+  height: 3em;
+  width: 95%;
+  margin-left: .5em;
+  background-color: #006bb3;
+  color: #ffffff; }
+.sumite-icon:hover {
+    background-color: #33176b;
+    color: #006bb3; }
+.icon-box{
+  float:left;
+  background-color: white;
+  margin-right: .8em;
+  margin-top: 3em;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 2em;
+  -webkit-box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.75);
+}
+.info-face{
+  background-color: #e8ebf0;
+  padding: 1em;
+  min-height: 15em;
+  margin-top: 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.75);
+}
+@keyframes myanimation {
+  0% {background-color: #2daac1;}
+  50%{background-color:#33176b;}
+  100% {background-color: #0b287c;}
+}
